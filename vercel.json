@@ -1,5 +1,5 @@
 {
-  "buildCommand": "cd examples/js/whisper && npm install && npm run build",
-  "outputDirectory": "examples/js/whisper/dist",
-  "installCommand": "npm install"
+  "rootDirectory": "examples/webgpu-whisper",
+  "buildCommand": "npm install && npm run build",
+  "outputDirectory": "dist"
 }
